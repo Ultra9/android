@@ -1,0 +1,68 @@
+#android{
+    overflow:hidden;
+    width:190px;
+    height:260px;
+}
+.head_wrap{
+    height:100px;
+    overflow:hidden;
+    margin-bottom:3px;
+    text-align:center;
+}
+.head{
+    width:120px;
+    background-color:#A4CA39; 
+    height:120px;
+    border-radius:120px;
+    margin:0 auto;
+}
+.eye{
+    background-color:#fff;
+    width:10px;
+    height:10px;
+    border-radius:10px;
+    display:inline-block;
+    margin:20px 18px;
+}
+.feelers{
+    height:45px;
+    width:100%;
+    position:relative
+}
+.feeler{
+    display:inline-block;
+    width:3px;
+    height:30px;
+    background-color:#A4CA39;
+    margin:30px 35px 0;
+    border-radius:3px 3px 0 0;
+    transform:rotate(-30deg);
+}
+.feeler.right{
+    transform:rotate(30deg);
+}
+.legs,
+.body_wrap{
+    text-align:center
+}
+.body{
+    width:120px;
+    height:110px;
+    background-color:#A4CA39; 
+    border-radius:0 0 15px 15px;
+    display:inline-block;
+}
+.leg,
+.hand{
+    width:27px;
+    height:90px;
+    background-color:#A4CA39;
+    display:inline-block;
+    border-radius:15px;
+    vertical-align:top;
+}
+.leg{
+    height:50px;
+    border-radius:0 0 15px 15px;
+    margin:-10px 6px;
+}
